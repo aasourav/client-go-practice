@@ -11,6 +11,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 )
 
+// get access outsite cluster
+
 func main() {
 	kubeconfig := flag.String("kubeconfig", "/home/aes-sourav/.kube/config", "location of kubeconfig file")
 	flag.Parse()
